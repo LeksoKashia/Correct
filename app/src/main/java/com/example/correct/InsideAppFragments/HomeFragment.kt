@@ -52,10 +52,10 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "Razer Book 13",
                 "RAM: 16GB",
                 "Core: I7",
-                "Memory: 8GB",
-                "Brand: HP",
+                "Memory: 16GB",
+                "Brand: Razer",
                 "Storage: 512GB",
-                "Rdate: 2021"
+                "Rdate: 2020"
             )
 
 
@@ -68,10 +68,10 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "Dell XPS 13 (9310)",
                 "RAM: 16GB",
                 "Core: I7",
-                "Memory: 8GB",
-                "Brand: HP",
-                "Storage: 512GB",
-                "Rdate: 2021"
+                "Memory: 32GB",
+                "Brand: Dell",
+                "Storage: 2TB",
+                "Rdate: 2019"
 
             )
 
@@ -83,11 +83,11 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large_wm_brw/public/field/image/2021/04/surface-laptop-4-amd-2021-hero.jpg",
                 "Price: $1,282",
                 "Surface Laptop 4",
-                "RAM: 16GB",
+                "RAM: 8GB",
                 "Core: I7",
-                "Memory: 8GB",
-                "Brand: HP",
-                "Storage: 512GB",
+                "Memory: 32GB",
+                "Brand: Surface",
+                "Storage: 1TB",
                 "Rdate: 2021"
             )
 
@@ -100,11 +100,11 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "Price: $1,700",
                 "Lenovo ThinkPad X1 Nano",
                 "RAM: 16GB",
-                "Core: I7",
-                "Memory: 8GB",
-                "Brand: HP",
-                "Storage: 512GB",
-                "Rdate: 2021"
+                "Core: I5",
+                "Memory: 16GB",
+                "Brand: Lenovo",
+                "Storage: 256GB",
+                "Rdate: 2022"
             )
 
 
@@ -115,12 +115,12 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large_wm_brb/public/field/image/2020/10/surface-laptop-go-hero3-logo.jpg",
                 "Price: $619",
                 "Microsoft Surface Laptop Go",
-                "RAM: 16GB",
-                "Core: I7",
+                "RAM: 8GB",
+                "Core: I5",
                 "Memory: 8GB",
-                "Brand: HP",
-                "Storage: 512GB",
-                "Rdate: 2021"
+                "Brand: Microsoft",
+                "Storage: 1TB",
+                "Rdate: 2020"
             )
 
 
@@ -133,9 +133,9 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
                 "LG gram 17",
                 "RAM: 16GB",
                 "Core: I7",
-                "Memory: 8GB",
-                "Brand: HP",
-                "Storage: 512GB",
+                "Memory: 16GB",
+                "Brand: LG",
+                "Storage: 1TB",
                 "Rdate: 2021"
             )
 

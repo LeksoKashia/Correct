@@ -56,7 +56,6 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
                         val action = RegisterFragmentDirections.actionRegisterFragmentToLoginFragment()
                         controller.navigate(action)
 
-
                         Toast.makeText(getActivity(),"good job", Toast.LENGTH_SHORT).show()
                     } else {
                         Toast.makeText(getActivity(), "problem occured", Toast.LENGTH_SHORT).show()

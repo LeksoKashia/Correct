@@ -30,7 +30,7 @@ class CartFragment:Fragment(R.layout.cart_fragment) {
                 "DPI: 6500",
                 "Brand: Razer",
                 "Movement: optical",
-                "Conectivity: Optical"
+                "Conectivity: USB"
 
             )
 
@@ -45,7 +45,7 @@ class CartFragment:Fragment(R.layout.cart_fragment) {
                 "DPI: 6500",
                 "Brand: Razer",
                 "Movement: optical",
-                "Conectivity: Optical"
+                "Conectivity: USB"
 
             )
 
@@ -96,6 +96,38 @@ class CartFragment:Fragment(R.layout.cart_fragment) {
 
 
         )
+        mouseList.add(
+            Mouse(
+                6,
+                "https://onlinegaminggear.com/wp-content/uploads/2017/11/design-for-game.jpg",
+                "Price: $23.50",
+                "Razer DeathAdder",
+                "DPI: 6500",
+                "Brand: Razer",
+                "Movement: optical",
+                "Conectivity: Optical"
+
+            )
+
+
+        )
+        mouseList.add(
+            Mouse(
+                7,
+                "https://onlinegaminggear.com/wp-content/uploads/2017/11/design-for-game.jpg",
+                "Price: $23.50",
+                "Razer DeathAdder",
+                "DPI: 6500",
+                "Brand: Razer",
+                "Movement: optical",
+                "Conectivity: Optical"
+
+            )
+
+
+        )
+
+
 
 
 

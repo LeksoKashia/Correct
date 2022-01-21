@@ -51,7 +51,7 @@ class RecyclerViewMouseAdapter(private val list: List<Mouse>): RecyclerView.Adap
             tv26.text = mouse.name
             tv20.text = mouse.dpi
             tv21.text = mouse.connectivity
-            tv22.text = mouse.name
+            tv22.text = mouse.movement
             tv23.text = mouse.brand
 
 
