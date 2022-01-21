@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/activity_inside_app.xml" value="0.264" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/cart_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/item_laptop.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/item_mouse.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/login_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/profile_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/register_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/reset_password_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/layout/starting_point_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Temo/AndroidStudioProjects/Correct/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
