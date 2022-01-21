@@ -141,6 +141,86 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
 
 
         )
+        laptopList.add(
+            Laptop(
+                8,
+                "https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/10/hp-spectre-x360-14-press-1.jpg",
+                "Price: $1,595",
+                "HP Envy x360",
+                "RAM: 16GB",
+                "Core: I7",
+                "Memory: 16GB",
+                "Brand: HP",
+                "Storage: 256GB",
+                "Rdate: 2021"
+            )
+
+
+        )
+        laptopList.add(
+            Laptop(
+                9,
+                "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large_wm_brw/public/field/image/2019/09/xps-13-2in1-7390-1.jpg",
+                "Price: $1,146",
+                "Dell XPS 13",
+                "RAM: 16GB",
+                "Core: I7",
+                "Memory: 32GB",
+                "Brand: Dell",
+                "Storage: 512GB",
+                "Rdate: 2020"
+            )
+
+
+        )
+        laptopList.add(
+            Laptop(
+                10,
+                "https://wonderfulengineering.com/wp-content/uploads/2016/08/the-lg-gram-looks-better-than-the-macbook-air-768x384.jpg",
+                "Price: $1,249",
+                "The LG Gram",
+                "RAM: 16GB",
+                "Core: I5",
+                "Memory: 8GB",
+                "Brand: LG",
+                "Storage: 1TB",
+                "Rdate: 2022"
+            )
+
+
+        )
+        laptopList.add(
+            Laptop(
+                11,
+                "https://cdn.mos.cms.futurecdn.net/aZjmFcauafwCJw4NzgGEig.jpg",
+                "Price: $379.99",
+                "Asus VivoBook 15",
+                "RAM: 16GB",
+                "Core: I7",
+                "Memory: 8GB",
+                "Brand: Asus",
+                "Storage: 512GB",
+                "Rdate: 2021"
+            )
+
+
+        )
+        laptopList.add(
+            Laptop(
+                12,
+                "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large_wm_brb/public/field/image/2021/08/hp-pavilion-aero-13-hero2.jpg",
+                "Price: $749",
+                "HP Pavilion Aero 13",
+                "RAM: 16GB",
+                "Core: I7",
+                "Memory: 16GB",
+                "Brand: HP",
+                "Storage: 1TB",
+                "Rdate: 2021"
+            )
+
+
+        )
 
 
 

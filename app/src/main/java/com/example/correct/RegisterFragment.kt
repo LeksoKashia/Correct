@@ -14,6 +14,7 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
     private lateinit var firstPassword: EditText
     private lateinit var secondPassword: EditText
     private lateinit var registerrationButton2: Button
+    private lateinit var ed_username: EditText
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -26,6 +27,7 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
             val firstpass = firstPassword.text.toString()
             val secondpass = secondPassword.text.toString()
             val maill = editEmail2.text.toString()
+            val username = ed_username.text.toString()
 
 
 
@@ -45,7 +47,11 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
             } else if (!(firstpass.matches(".*[!@#$%^&*()?><`~].*".toRegex()))) {
                 firstPassword.error = "password must consist of special symbols"
                 return@setOnClickListener
-            } else if (!(firstpass.matches(".*[0-9].*".toRegex()))) {
+            } else if (username.isEmpty() || !(username.length < 8) ) {
+                ed_username.error = "password must consist of numbers"
+                return@setOnClickListener
+            }
+            else if (!(firstpass.matches(".*[0-9].*".toRegex()))) {
                 firstPassword.error = "password must consist of numbers"
                 return@setOnClickListener
             }
@@ -77,6 +83,7 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
         firstPassword = requireView().findViewById(R.id.firstPassword)
         secondPassword = requireView().findViewById(R.id.secondPassword)
         registerrationButton2 = requireView().findViewById(R.id.registerrationButton2)
+        ed_username = requireView().findViewById(R.id.ed_username)
 
     }
 
