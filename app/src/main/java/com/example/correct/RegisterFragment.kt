@@ -1,13 +1,16 @@
 package com.example.correct
 
+import android.app.DatePickerDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.google.firebase.auth.FirebaseAuth
+import java.util.*
 
 class RegisterFragment: Fragment(R.layout.register_fragment) {
     private lateinit var editEmail2: EditText
@@ -15,11 +18,13 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
     private lateinit var secondPassword: EditText
     private lateinit var registerrationButton2: Button
     private lateinit var ed_username: EditText
+    private lateinit var tv0: TextView
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val controller = Navigation.findNavController(view)
+
 
         init()
 
@@ -28,6 +33,10 @@ class RegisterFragment: Fragment(R.layout.register_fragment) {
             val secondpass = secondPassword.text.toString()
             val maill = editEmail2.text.toString()
             val username = ed_username.text.toString()
+
+
+
+
 
 
 

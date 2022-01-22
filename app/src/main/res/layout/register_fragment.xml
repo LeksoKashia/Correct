@@ -126,10 +126,10 @@
         android:text="Registration"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -140,4 +140,17 @@
         app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:srcCompat="@drawable/ic_baseline_supervised_user_circle_24" />
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Date"
+        android:textColor="#D1C2C2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerrationButton2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,14 +1,13 @@
 package com.example.correct
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginFragment: Fragment(R.layout.login_fragment) {
@@ -20,9 +19,12 @@ class LoginFragment: Fragment(R.layout.login_fragment) {
     private lateinit var forgotpassword: TextView
     private lateinit var tv_noacc: TextView
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val controller = Navigation.findNavController(view)
+
+        var login_fragment : LinearLayout = view.findViewById(R.id.loginFragment)
 
         init()
 
@@ -59,9 +61,11 @@ class LoginFragment: Fragment(R.layout.login_fragment) {
                     if(task.isSuccessful){
                         val Intent = Intent(activity,InsideAppActivity::class.java)
                         startActivity(Intent)
-
                     }else{
-                        Toast.makeText(getActivity(), "problem occured", Toast.LENGTH_SHORT).show()
+                        val customSnackbar = Snackbar.make(login_fragment,"Try Again My Friend!", Snackbar.LENGTH_LONG).setAction("Retry"){}
+                        customSnackbar.setBackgroundTint(Color.RED)
+                        customSnackbar.setActionTextColor(Color.WHITE)
+                        customSnackbar.show()
                     }
                 }
 
